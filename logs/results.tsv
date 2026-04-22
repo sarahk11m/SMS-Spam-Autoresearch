@@ -1,0 +1,2 @@
+experiment	val_macro_f1	val_accuracy	status	train_time_sec	description
+no-git	0.941032	0.958333	baseline	0.0138	baseline: tfidf + logistic regression
