@@ -1,2 +1,7 @@
 experiment	val_macro_f1	val_accuracy	status	train_time_sec	description
-no-git	0.941032	0.958333	baseline	0.0138	baseline: tfidf + logistic regression
+no-git	0.941032	0.958333	baseline	0.0036	baseline: tfidf + logistic regression
+no-git	0.941032	0.958333	discard	0.0033	dry run 1: unigram tfidf + logistic regression
+no-git	1.000000	1.000000	discard	0.0037	dry run 2: add class_weight balanced
+no-git	1.000000	1.000000	discard	0.0063	dry run 3: char_wb 3-5 grams + logistic regression
+no-git	1.000000	1.000000	discard	0.0036	dry run 4: tfidf + LinearSVC
+no-git	1.000000	1.000000	keep	0.0039	dry run 5: sublinear tf + logistic C=2.0
